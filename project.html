@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="project.html">Home</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="form.html">Contact</a></li>
+        </ul>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+        <section class="events" id="tours">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./image/img3.png" alt="">
+                    <h4>Everest Base Camp Trek</h4>
+                    <p>They call it the “steps to heaven” for a good reason. To go to the base camp of the highest mountain in the world is on every mountain lover’s bucket list.
+                        You will look at the scenery that’s so breathtakingly stunning and unlike any mountainous terrain that you have ever seen before – changing from lush
+                    green farmland, dense forest, and glistening blue fast-flowing rivers to the barren land and glacial pools the higher you climb – that you realize it was a good decision. 
+                    Here you are, conquering Everest like a warrior.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="./image/img2.png" alt="">
+                    <h4>Walking Holidays</h4>
+                    <p>On our group-guided walking holidays you will be accompanied by an English-speaking guide and, where applicable, a support crew, and on most trips your baggage
+                         is transported for you. Many of our clients are solo travellers, as well as couples and groups of friends. These small group trips provide an opportunity to 
+                         join fellow walkers in some of the world's best trekking areas like western and eastern ghats and share your travel experience with like-minded travellers.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section class="explore" id="explore">
+            <div class="explore-content">
+                <div class="line"></div>
+            <h1>Explore The World</h1>
+            <p>"Jobs fill your pocket, adventures fill your soul” – Jaime Lyn Beatty.
+            
+            </p>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+        </section>
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col" >
+                    <h1>UPCOMING TOURS & DESTINATION</h1>
+                    <div class="line"></div>
+                    <p>Experience the geographical & cultural diversity of various
+                         states of the country with our wide range of India tour packages!</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="./image/adventure-4.jpg" alt="not found">
+                        <img src="./image/adventure-5.jpg" alt="not found">
+                        <img src="./image/adventure-6.jpg" alt="not found">
+                        <img src="./image/adventure-7.jpg" alt="not found">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <p>123 fifth avenue,vns|phone:180-033-220|email:xyz@gmail.com</p>
+            <p>Copyright &copy; 2020 outdoor adventure</p>
+        </section>
+    
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+
+        })
+
+    </script>
+    
+</body>
+</html>

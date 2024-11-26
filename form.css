@@ -1,0 +1,13 @@
+#btn1{
+    background-color: aquamarine;
+    color: blue;
+}
+body{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 45px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    background-image:url( ./image/adventure-1.jpg);
+}
